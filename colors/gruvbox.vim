@@ -590,12 +590,14 @@ hi! link Exception GruvboxRed
 " sizeof, "+", "*", etc.
 hi! link Operator Normal
 " Any other keyword
-hi! link Keyword GruvboxRed
+hi! link Keyword Normal
+" Defined name
+hi! link DefinedName GruvboxBlue
 
 " Variable name
 hi! link Identifier GruvboxBlue
 " Function name
-hi! link Function GruvboxGreenBold
+hi! link Function Normal
 
 " Generic preprocessor
 hi! link PreProc GruvboxAqua
